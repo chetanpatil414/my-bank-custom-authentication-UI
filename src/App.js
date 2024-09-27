@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/loginpage/Header";
+import LoginForm from "./components/loginpage/LoginForm";
+import HelpSection from "./components/loginpage/HelpSection";
+import Dashboard from "./components/dashboardpage/Dashboard";
+import Display from "./components/dashboardpage/Display";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css"; // For any global styles
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+
+        <div className="container">
+          <Routes>
+            {/* <Route path="/" element={<LoginForm />} /> */}
+            <Route path="/" element={<LoginForm />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/display" element={<Display />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

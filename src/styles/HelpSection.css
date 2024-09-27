@@ -1,0 +1,27 @@
+.help {
+  width: 250px;
+  height: 400px;
+  background: rgba(0, 51, 102, 0.8);
+}
+.help h3 {
+  margin-top: 0;
+  color: white;
+}
+.help a {
+  display: block;
+  margin: 5px 0;
+  color: #66b3ff;
+  text-decoration: none;
+}
+.help a:hover {
+  text-decoration: underline;
+}
+.sign-up-btn {
+  background-color: #0066cc;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}

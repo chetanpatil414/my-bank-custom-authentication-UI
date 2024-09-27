@@ -1,0 +1,99 @@
+.login-box {
+  background: rgba(0, 51, 102, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .login-box h2 {
+  margin-top: 0;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.login-box select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+}
+.login-box input[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-box input[type="submit"]:hover {
+  background-color: #e65c00;
+} */
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form select {
+  width: calc(50% - 2px);
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+}
+.login-form button[type="submit"] {
+  width: calc(50% - 2px);
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+}
+.login-form input[type="submit"]:hover {
+  background-color: #e65c00;
+}
+
+.agreement {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.help {
+  /* width: 250px;
+  height: 400px; */
+  /* background: rgba(0, 51, 102, 0.8); */
+}
+.help h3 {
+  margin-top: 0;
+  color: white;
+}
+.help a {
+  display: block;
+  margin: 5px 0;
+  color: #66b3ff;
+  text-decoration: none;
+}
+.help a:hover {
+  text-decoration: underline;
+}
+.sign-up-btn {
+  background-color: #0066cc;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
