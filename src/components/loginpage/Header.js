@@ -1,6 +1,6 @@
 import React from "react";
-import "/Users/chetanpatil/ReactJs/live-bank-project/src/styles/Header.css";
-import logo from "/Users/chetanpatil/ReactJs/live-bank-project/src/assets/images/logo.jpg";
+import "../../styles/Header.css";
+import logo from "../../assets/images/logo.jpg";
 
 const Header = () => {
   return (

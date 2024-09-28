@@ -2,7 +2,7 @@ import { dash } from "../../api/DashboardService";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import "/Users/chetanpatil/ReactJs/live-bank-project/src/styles/Dashboard.css";
+import "../../styles/Dashboard.css";
 const Dashboard = () => {
   const location = useLocation();
   const userdata = location.state?.data || "No data available";

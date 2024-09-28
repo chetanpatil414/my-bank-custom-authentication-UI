@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "/Users/chetanpatil/ReactJs/live-bank-project/src/styles/LoginForm.css";
+import "../../styles/LoginForm.css";
 import { loginUser } from "../../api/AuthService.js";
 import { useNavigate } from "react-router-dom";
 
